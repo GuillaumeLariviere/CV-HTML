@@ -1,0 +1,52 @@
+/*css pour info perso*/
+.name{
+    font-size: 23px;
+}
+.meJoindre{
+    text-align: end;
+}
+.meJoindre a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+.meJoindre a:hover{
+    color: var(--color-black);
+}
+/*css cadre blanc contenant le metier rechercher*/
+.metierVoulu h1{
+    font-size: 35px;
+    font-family: 'Pushster', cursive;
+}
+/* css titre Compétence*/
+.InfoTitle{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+   
+}
+.InfoTitle h2{
+    display: inline;
+    border:solid 2px var(--color-black);
+    padding: 5px;
+    font-family: 'Pushster', cursive;
+    font-size: 30px;
+}
+/*css pour la partie poste et task*/
+.ExpPoste{
+    font-size: 14px;
+}
+.ExpTask{
+    color: var(--color-grey);
+    font-size: 14px;
+}
+/* encadrement gris des lieux et date des exp pro*/
+.ExpTitle{
+    margin:9.5px 0 0 0;
+    border:solid var(--color-grey) 2px;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--color-blue);
+    font-size: 12px;
+    width: 158.266px;
+    height: 40px;
+}

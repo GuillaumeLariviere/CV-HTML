@@ -1,0 +1,54 @@
+.ligneLogo{
+    text-align: center;
+
+}
+/*image vscode size*/
+.logo .logovscode{
+    width: 65px;
+    height: 65px;
+}
+/*image mysql size*/
+.logo img{
+    width: 75px;
+    height: 75px;
+}
+/* taille logo*/
+.logo i{
+    font-size: 75px;
+}
+/*titre cacher*/
+.hidden{
+    visibility: hidden;
+}
+.logotitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Logopadd{
+    padding-top:10px;
+}
+/*logo color*/
+.fa-html5{
+    color:rgb(228,77,38);
+}
+.fa-node{
+    color:rgb(83,158,66);
+}
+.fa-css3-alt{
+    color:rgb(38,77,228);
+}
+.fa-git-square{
+    color:rgb(240,81,51);
+}
+.fa-js-square{
+    color:rgb(247,223,30);
+}
+.fa-php{
+    color:rgb(111,125,183);
+}
+.fa-react{
+    color:rgb(96,217,250);
+}
+.fa-bootstrap{
+    color:rgb(87,60,127);
+}

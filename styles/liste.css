@@ -1,0 +1,23 @@
+/* css pour liste flécher*/
+.Liste li{
+    list-style: none;
+    text-align: start;
+    color: var(--color-grey);
+
+}
+.Liste li::before{
+    content:"\2192";
+    margin-right: 5px ;
+}
+/*css retirer flech liste formation*/
+li.ListeStyleNone::before{
+    content:"";
+}
+/* couleur pour liste foramtion*/
+li.ListeStyleNone{
+    color:var(--color-blue);
+}
+li.CompetenceListe{
+    color:var(--color-black);
+
+}

@@ -1,0 +1,278 @@
+:root{
+    --color-black:rgb(18, 18, 18);
+    --color-red:rgb(61, 69, 73);
+    --color-white:white;
+    --color-grey:rgb(150,150,147);
+    --color-blue:rgb(109,167,204);
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* div qui contient l'ensemble*/
+.container-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*css bg white pour les colone et le cadre metier*/
+.bg-col{
+    background-color: var(--color-white);
+}
+
+/*css de la taille des deux page */
+.col-left,.col-right{
+    width: 45vw;
+    height: 860px;
+}
+
+/*css du header du cv et separation*/
+.bg-color{
+    background-color: var(--color-blue);
+    border-top:4px solid  var(--color-grey);
+    border-bottom:4px solid  var(--color-grey);
+
+}
+.separation{
+    height: 20px;
+}
+
+/*css pour la div contenant les info perso*/
+.infoPers-flex{
+    color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* css du cadre blanc qui contient le metier souhaiter*/
+.contentMetier-flex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.metierVoulu{
+ border: double 5px  var(--color-black);;
+ text-align: center;
+ padding: 5px;
+}
+.ContentMetier{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/*css pour la partie competence et formation*/
+.infoCont{
+    padding: 10px;
+}
+
+/* logo compétence technique*/
+.CompTech-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top:10px;
+}
+
+/*css pour langue et interet*/
+.contentListe-flex{
+    display:flex;
+    justify-content: space-around;
+}
+
+.Liste ul{
+    padding:0;
+    margin: 20px 0 20px 0;
+    
+}
+
+/*section experience pro 
+flex pour exptitle */
+.ExpPro-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/*flex pour task et poste*/
+.Exp-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 15px;
+}
+
+/*margin du dernier element des lieux de travail*/
+.ExpPro-flex:last-child{
+    margin-bottom: 18px;
+}
+
+/*responsive*/
+@media screen and (max-width: 1705px){
+    body{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1609px){
+    .ExpPro-flex:last-child {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 1463px){
+    .ExpTitle {
+        width: 154.266px;
+        height: 36.5px;
+    }
+    
+}
+@media screen and (max-width: 1363px){
+    body{
+        font-size: 14.5px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1439px){
+    .InfoTitle h2 {
+        font-size: 26px;
+    }
+    .logo i {
+        font-size: 62px;
+    }
+    .logo .logovscode {
+        width: 60px;
+        height: 60px;
+    }
+    .logo img{
+        width: 62px;
+        height: 62px;
+    }
+    .ExpTitle {
+        width: 114.266px;
+        height: 37px;
+    }
+    .Exp-flex {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1023px){
+    .container-flex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .col-left{
+        margin-bottom:-56px;
+    }
+    .col-left, .col-right {
+        width: 95vw;
+        height: 860px;
+    }
+}
+@media screen and (max-width: 760px){
+    .col-left{
+        margin-bottom:-79px;
+    }
+    body{
+        font-size: 13.5px;
+    }
+    .InfoTitle h2 {
+        font-size: 25px;
+    }
+    .logo i {
+        font-size: 62px;
+    }
+    .logo .logovscode {
+        width: 60px;
+        height: 60px;
+    }
+    .logo img{
+        width: 62px;
+        height: 62px;
+    }
+    .ExpPoste {
+        font-size: 13px;
+    }
+    .ExpTask {
+        font-size: 10px;
+    }
+    .ExpTitle{
+    font-size: 9px;
+    width: 72.266px;
+    height: 35px;
+    }
+    .InfoTitle {
+        margin: 0px 0 10px 0;
+    }
+}
+@media screen and (max-width: 376px){
+    .logo i {
+        font-size: 55px;
+    }
+    .logo .logovscode {
+        width: 50px;
+        height: 50px;
+    }
+    .logo img{
+        width: 55px;
+        height: 55px;
+    }
+    .metierVoulu h1 {
+        font-size: 31px;
+        font-family: 'Pushster', cursive;
+    }
+    .ExpTitle{
+        margin-top: 4px;
+    }
+}
+@media screen and (max-width: 321px){
+    .logo i {
+        font-size: 32px;
+    }
+    .logo .logovscode {
+        width: 29px;
+        height: 29px;
+    }
+    .logo img{
+        width: 32px;
+        height: 32px;
+    }
+    .metierVoulu h1 {
+        font-size: 31px;
+        font-family: 'Pushster', cursive;
+    }
+    .ExpTitle{
+        margin-top: 4px;
+    }
+    .name{
+       font-size: 18px;
+    }
+    .metierVoulu h1 {
+        font-size: 29px;
+        font-family: 'Pushster', cursive;
+    }
+    .InfoTitle h2 {
+        font-size: 20px;
+    }
+    .col-left{
+        margin-bottom:-181px;
+    }
+    .ExpTitle {
+        margin-top: 2px;
+        font-size: 9px;
+        width: 114.266px;
+        height: 31px;
+    }
+    .Exp-flex {
+        width: 200px;
+    }
+}
