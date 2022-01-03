@@ -5,6 +5,11 @@
     --color-grey:rgb(150,150,147);
     --color-blue:hsl(203, 48%, 61%);
 }
+.flexprint
+{
+    display: flex;
+    flex-direction: column;
+}
 
 body{
     background-color: rgb(204, 204, 204);

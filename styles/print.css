@@ -1,0 +1,83 @@
+@media print {
+    .container-flex{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .col-left, .col-right {
+        width: 95vw;
+        height: auto;
+    }
+    .logo i {
+        font-size: 32px;
+    }
+    .logo .logovscode {
+        width: 29px;
+        height: 29px;
+    }
+    .logo img{
+        width: 32px;
+        height: 32px;
+    }
+    .metierVoulu h1 {
+        font-size: 31px;
+        font-family: 'Pushster', cursive;
+    }
+    .ExpTitle{
+        margin-top: 4px;
+    }
+    .name{
+       font-size: 18px;
+    }
+    .metierVoulu h1 {
+        font-size: 29px;
+        font-family: 'Pushster', cursive;
+    }
+    .InfoTitle h2 {
+        font-size: 20px;
+    }
+    .col-left{
+        /* margin-bottom:-200px; */
+    }
+    .ExpTitle {
+        margin-top: 2px;
+        font-size: 9px;
+        width: 114.266px;
+        height: 31px;
+    }
+    .Exp-flex {
+        width: 400px;
+    }
+    .flexprint{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #printcontentListe{
+        display: flex;
+       flex-direction: row;
+  
+    }
+    .btnflex{
+        visibility: hidden;
+        display:none;
+    }
+    .Liste{
+        font-size: 12px;
+    }
+    .ListeStyleNone{
+        font-size: 10px;
+    }
+    .FormationListe{
+        font-size: 10px;
+    }
+    .infoCont{
+        padding:0;
+    }
+    .InfoTitle{
+        padding:5px;
+        /* margin:0; */
+    }
+}
