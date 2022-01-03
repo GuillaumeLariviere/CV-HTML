@@ -3,7 +3,7 @@
     --color-red:rgb(61, 69, 73);
     --color-white:white;
     --color-grey:rgb(150,150,147);
-    --color-blue:rgb(109,167,204);
+    --color-blue:hsl(203, 48%, 61%);
 }
 
 body{
